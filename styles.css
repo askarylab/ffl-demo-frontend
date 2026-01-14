@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+}
+#graph-container {
+  width: 600px;
+  height: 400px;
+  margin: 1em auto;
+  background-color: #f0f0f0;
+}
+canvas {
+  margin-top: 2em;
+}
+
