@@ -3,7 +3,7 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 // Connect to Supabase
 const supabaseUrl = 'https://afrqngfmyipkwpaymihp.supabase.co'
-const supabaseKey = 'YOUR_ANON_KEY_HERE'  // Paste your anon/public key from Supabase
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFmcnFuZ2ZteWlwa3dwYXltaWhwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgzNDg1ODYsImV4cCI6MjA4MzkyNDU4Nn0.eeQJ4FZIlpQcXrAubvXvs6Ma2omaL_rPNh6w0VZPTpk'  // Paste your anon/public key from Supabase
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 // Submit button logic
